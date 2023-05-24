@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2015"],  
+        "module": "CommonJS", // Module system to compile code to
+        "outDir": "dist",  // Which folder should TSC put generated JavaScript code in?
+        "sourceMap": true,
+        "strict": true,
+        "target": "ES2015" // Which JavaScript version should TSC compile code to?
+},
+"include":
+     ["src"] // Where should TSC look for TypeScript files?
+}
